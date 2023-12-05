@@ -25,7 +25,6 @@ def max_min_find(arr):
 # a function to remove duplicates from a sorted array
 # we use a two pointer algorithm !
 def dublicates_remove(arr):
-    # arr=[5,5,5,7,7,8,8]
     pos=0
     last=1
     for i in range(0,len(arr)):
